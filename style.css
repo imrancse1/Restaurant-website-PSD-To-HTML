@@ -1,0 +1,415 @@
+.alignleft {
+  float: left;
+  margin-right: 15px;
+}
+.alignright {
+  float: right;
+  margin-left: 15px;
+}
+.aligncenter {
+  display: block;
+  margin: 0 auto 15px;
+}
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: 0 solid;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+input:focus,
+button:focus,
+textarea:focus,
+a:focus {
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  font-weight: 700;
+  font-family: "Yeseva One", cursive;
+}
+body {
+  height: 100%;
+}
+body {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 16px;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+/*my code*/
+.slide-bg-1 {
+    background-attachment: fixed;
+  background: url(assets/img/header.jpg);
+}
+.slide-bg-2 {
+    background-attachment: fixed;
+  background: url(assets/img/testimonial-bg.jpg);
+}
+.header-text h2 {
+  background: url(assets/img/line_symbol.png);
+}
+
+.top-area {
+  position: relative;
+}
+.logo img {
+    height: 90px;
+}
+.top-area-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.mainmenu ul.nav.navbar-nav {
+  float: none;
+  font-size: 20px;
+  text-align: right;
+}
+.mainmenu ul.nav.navbar-nav li {
+  display: inline-block;
+  float: none;
+  position: relative;
+}
+.mainmenu ul.nav.navbar-nav li a {
+  color: #fff;
+  padding: 40px 15px;
+}
+.mainmenu ul.nav.navbar-nav li:hover a {
+  background: none
+}
+.mainmenu ul.nav.navbar-nav li.active:before {
+  background: #c8c5ba none repeat scroll 0 0;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.header-text h2 {
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 55px;
+  padding-bottom: 70px;
+  margin-bottom: 40px;
+}
+.btn-filled {
+  color: #fff;
+  display: inline-block;
+  margin: 0 5px;
+  padding: 10px 30px;
+  position: relative;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.btn-filled:after {
+  background: #1d2122 none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.btn-filled.yellow-color-btn:after {
+  background-color: #d2ba82;
+}
+.header-text {
+  padding: 100px 0;
+}
+.mainmenu {
+  padding-right: 80px;
+  position: relative;
+}
+.social-links {
+  position: absolute;
+  right: 0;
+  top: 37px;
+}
+.social-links a {
+  color: #d8b13d;
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+/*slider*/
+.header-text-area {
+    position: relative;
+    padding-top: 80px;
+}
+.slide-control {
+    color: #fff;
+    font-size: 80px;
+    left: 30px;
+    margin-top: -70px;
+    opacity: 0.2;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+    position: absolute;
+    top: 50%;
+}
+.slide-control.right {
+    left: auto;
+    right: 30px;
+}
+.slide-control:hover {
+    color: #fff;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+/*header sticky*/
+.header-area{
+    width: 100%;
+    /*z-index: 999;
+    position: relative;*/
+}
+.sticky-wrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.is-sticky .header-area:after {
+    background: #000;
+    opacity: .8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+}
+.is-sticky .logo img {
+    height: 65px;
+    width: auto;
+    padding: 10px 0;
+}
+.is-sticky .mainmenu ul.nav.navbar-nav li a {
+    padding: 22px 15px;
+}
+.is-sticky .social-links {
+    top: 18px;
+}
+
+.header-area:after, .logo img, .mainmenu ul.nav.navbar-nav li a, .social-links {
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.mainmenu ul.nav.navbar-nav li a:focus {
+    background: none
+}
+.is-sticky .mainmenu ul.nav.navbar-nav li.active a {color: #cc9900}
+
+
+
+/*about section*/
+.about-area {
+  background: url(assets/img/symphony.png);
+}
+.section-padding {
+  padding: 80px 0;
+}
+.section-title {
+  background: url(assets/img/section-title-pattern.png) no-repeat scroll center
+    bottom;
+  color: #cc9900;
+  margin-bottom: 20px;
+  padding-bottom: 35px;
+  text-align: center;
+}
+.author-photo {
+  margin-top: 30px;
+}
+
+/*Igredients*/
+.igredients-area {
+  position: relative;
+}
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.igredients-bg {
+  background-image: url(assets/img/irr-sec-bg.jpg);
+}
+.igredients-text {
+  color: #fff;
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.igredients-text p {
+  margin-bottom: 30px;
+}
+.igredients-text:after,
+.testimonial-list:after {
+  background: #000 none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.section-title.white-sec-title {
+  color: #fff;
+  background-image: url(assets/img/section-title-pattern-white.png);
+}
+.food-menu-area {
+  background: url(assets/img/symphony.png);
+}
+.single-food-menu-item h2 {
+  border-bottom: 1px solid;
+  color: #c89f2d;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.single-food-menu-item h2 span {
+  float: right;
+  font-weight: 400;
+}
+.single-food-menu-item {
+  margin-bottom: 40px;
+}
+.single-food-menu-item.special {
+  border: 1px solid #d6bb6c;
+  padding: 10px;
+  position: relative;
+}
+.single-food-menu-item.special:before {
+  background: #d6bb6c none repeat scroll 0 0;
+  color: #fff;
+  content: "special";
+  font-size: 14px;
+  padding: 1px 5px;
+  position: absolute;
+  right: -1px;
+  text-transform: uppercase;
+  top: -23px;
+}
+.single-food-menu-item p {
+  margin: 0;
+}
+
+/*   Testimonial   */
+.testimonial-area {
+  position: relative;
+}
+.testimonial-bg {
+  background-image: url(assets/img/testimonial-bg.jpg);
+}
+.testimonial-list {
+  color: #fff;
+  font-size: 25px;
+  padding: 50px;
+  position: relative;
+  z-index: 1;
+}
+.testimonial-list p.testimonial-author {
+  font-size: 18px;
+  margin-top: 30px;
+}
+#testimonial-carousel:before {
+  font-family: FontAwesome;
+  content: "\f10d";
+  position: absolute;
+  left: -30px;
+  top: -17px;
+  color: #9a9b9a;
+  font-size: 35px;
+}
+
+/*Contact*/
+.contact-us-area {
+  background-image: url(assets/img/symphony.png);
+}
+.contact-img img {
+  margin-left: 30px;
+  width: 215px;
+}
+.contact-form {
+  text-align: left;
+  margin-top: 30px;
+}
+.contact-form input[type="text"],
+select {
+  width: 100%;
+  border: 1px solid #e2d4ac;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+.contact-form label {
+  color: #cb9821;
+}
+.contact-form button {
+  background: #c8a03c;
+  color: #fff;
+  border: none;
+  padding: 5px 30px;
+  margin: 0 auto;
+  display: block;
+}
+
+/*Footer*/
+
+.footer-area {
+  background: #191919 none repeat scroll 0 0;
+  color: #bfbfbf;
+  font-size: 15px;
+  padding: 58px 0;
+}
+.footer-area .section-title {
+  color: #fff;
+  font-size: 20px;
+  background-image: url(assets/img/section-title-pattern-little.png);
+}
+.footer-area strong {
+  color: #fff;
+}
+.footer-cards {
+  color: #fff;
+  margin-top: 20px;
+}
+.footer-cards i {
+  margin: 0 2px;
+}
+.footer-social-icon a {
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  padding: 0 3px;
+}

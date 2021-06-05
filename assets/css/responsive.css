@@ -1,0 +1,119 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  .contact-img img {
+  	width: 235px;
+  } 
+    
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .logo .author-food-img  {
+    	text-align: center;
+    }
+    .header-text h2 {
+    	font-size: 69px;
+    }
+    .header-text {
+    	font-size: 150px 0 100px;
+    }
+	.navbar-collapse {
+		padding-left: 10px;
+	}
+	.author-food-img {
+		margin-top: 30px;
+	}
+	.contact-img {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.footer-area {
+		font-size: 14px;
+	}
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .navbar-header {
+    	position: absolute;
+    	right: 0;
+    	top: -43px;
+    }
+    .social-links {
+        top: -20px;
+    }
+    .is-sticky .navbar-header {
+        top: -65px;
+    }
+    .is-sticky .social-links {
+        top: -28px;
+    }
+    .is-sticky .logo img {
+        height: 85px;
+    }
+    .mobile-menu-activated .is-sticky .mainmenu ul.nav.navbar-nav li a {padding: 15px}
+
+    .mainmenu {
+    	padding-right: 160px;
+    	padding-top: 20px;
+    	text-align: center;
+    	padding-left: 160px;
+    }
+    .navbar-toggle {
+    	float: none;
+    	margin: 0;
+    	border-color: #fff;
+    }
+    .navbar-toggle .icon-bar {
+    	background: #fff none repeat scroll 0 0;
+    }
+    .mobile-menu-activated ul.nav.navbar-nav {
+    	background: #000 none repeat scroll 0 0;
+    	text-align: center;
+
+    }
+    .mobile-menu-activated ul.nav.navbar-nav li {
+    	display: block;
+
+    }
+    .mobile-menu-activated ul.nav.navbar-nav li a {
+    	border-bottom: 1px solid #333;
+    	padding: 15px;
+
+    }
+    .mobile-menu-activated .navbar-collapse {
+    	box-shadow: 0 0 0;
+    }
+    .header-text h2 {
+        font-size: 35px;
+    }
+    .section-padding {
+        padding: 60px 0;
+    }
+    .testimonial-list {
+        font-size: 16px;
+    }
+    .contact-img {
+        text-align: center;
+    }
+    .contact-img img {
+        margin-bottom: 30px;
+        width: auto;  
+    }
+    .footer-widget {
+        margin-bottom: 50px; 
+    }
+    .footer-area {
+        text-align: center;
+    }
+
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
